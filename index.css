@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 550px;
+    height: 600px;
+    border: 2px solid grey;
+    margin: 30px auto;
+    padding: 45px;
+    padding-top: 90px;
+    background-color: #1F2937 ;
+    border-radius: 6px;
+}
+
+.upContent{
+    border-bottom: 1px solid rgba(128,128,128,0.305);
+
+}
+
+.heading{
+    font-family: 'karla',sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    color: white;
+    margin-bottom: 5px;
+}
+.heading span{
+    color: #00ffaa;
+
+}
+.subLine{
+   color: rgb(232, 232,232); 
+   font-family: 'karla',sans-serif;
+   font-size: 18px;
+   margin-top: 12px;
+
+}
+
+.downContent{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.reqlen{
+    font-family: 'Roboto',sans-serif;
+    
+    color:#0fce8e ;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.reqlen span{
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+#inputNum{
+ 
+    background-color: #2f415a;
+    
+        color: white;
+        width: 190px;
+        padding: 10px;
+        font-family: 'Karla',sans-serif;
+        font-size: 17px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 5x;
+        margin-bottom: 10px;
+    }
+
+
+#generatePassword{
+    background-color:#0fce8e ;
+    color: white;
+    width: 190px;
+    padding: 10px;
+    font-family: 'Karla',sans-serif;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#generatePassword:active{
+    background-color: #00ffaa;
+}
+.outputText{
+    width: 220px;
+    height: 40px;
+    padding: 12px 20px;
+    margin-right: 12px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background-color: #2f415a;
+    color: #00ffaa;
+    font-family: 'karla',sans-serif;
+    font: size 16px; 
+    text-align: center;
+    overflow: hidden;
+
+}
+.outputText::selection{
+    color: white;
+    background-color: #1bb07f;
+}
+#ac{
+    color: red;
+}

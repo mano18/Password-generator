@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href='index.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Nunito+Sans&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+     <div class="container">
+        <div class="upContent">
+        <h1 class="heading">Generate a <br> <span>random password</span></h1>
+        <p class="subLine">Never use an insecure password again.</p>
+        <p class="reqlen">Enter the No.of Characters Required <br><span>(Min of 8 and Max of 15)</span></p>
+        <input  id="inputNum" type="text"  method="post"> </input><br>
+        <p id="ac" >please enter value in between 7 and 15 </p>
+        <button id="generatePassword" onclick="generatePassword()">Generate passwords</button>
+        </div>
+        <div class="downContent">
+            <span id="leftText" class="outputText"></span>
+            <span id="rightText" class ="outputText"></span>
+        </div>
+    </div>
+    <script src="index.js">
+      
+    </script>
+    </body>
+</html>
